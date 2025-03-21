@@ -1,0 +1,22 @@
+{:browser ["brave-browser"]
+ :messaging ["disord" "signal"]
+ :password-manager ["keepassxc"]
+ :package-manager ["homebrew"]
+ :programming {:clojure ["clojure"]
+               :development ["fzf"
+                             "git"
+                             "neovim"
+                             "nushell"
+                             "ripgrep"
+                             "starship"
+                             "wezterm"
+                             "zoxide"]
+               :python ["uv"]
+               :rust ["rustup"]}
+ :utilities ["raycast"
+             "stow"
+             "syncthing"]
+ :window-management ["skhd"
+                     "yabai"]}
+           
+ 
