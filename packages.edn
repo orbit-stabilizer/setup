@@ -1,10 +1,12 @@
-{:browser ["brave-browser"]
- :messaging ["disord" "signal"]
+{:browser ["brave"]
+ :messaging ["discord" "signal"]
+ :notes ["inkdrop"]
  :password-manager ["keepassxc"]
- :package-manager ["homebrew"]
- :programming {:clojure ["clojure"]
+ :package-manager [#_"homebrew"] 
+ :programming {:clojure [#_"clojure"
+                         #_"babaskha"] 
                :development ["fzf"
-                             "git"
+                             #_"git"
                              "neovim"
                              "nushell"
                              "ripgrep"
@@ -16,7 +18,7 @@
  :utilities ["raycast"
              "stow"
              "syncthing"]
- :window-management ["skhd"
-                     "yabai"]}
+ :window-management [#_"skhd"
+                     #_"yabai"]}
            
  

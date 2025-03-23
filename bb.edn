@@ -1,0 +1,1 @@
+{:tasks {update (do (shell "brew update") (shell "brew upgrade"))}}
