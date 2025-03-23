@@ -7,4 +7,5 @@
 4. Run `chmod +x ./packages/*.sh`
 5. Run `sh bootstrap.sh`
 5. Run `bb install-packages.clj`
-6. Profit
+6. Import Raycast config in `./backups`
+7. Profit
