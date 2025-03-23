@@ -7,6 +7,7 @@
                          #_"babaskha"] 
                :development ["fzf"
                              #_"git"
+                             "git-credential-manager"
                              "neovim"
                              "nushell"
                              "ripgrep"
