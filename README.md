@@ -7,5 +7,6 @@
 4. Run `chmod +x ./packages/*.sh`
 5. Run `sh bootstrap.sh`
 5. Run `bb install-packages.clj`
-6. Import Raycast config in `./backups`
-7. Profit
+6. Install supernotes :)
+7. Import Raycast config in `./backups`
+8. Profit

@@ -1,7 +1,6 @@
 {:blog ["zola"]
  :browser ["brave"]
  :messaging ["discord" "signal"]
- :notes ["inkdrop"]
  :password-manager ["keepassxc"]
  :package-manager [#_"homebrew"] 
  :programming {:clojure [#_"clojure"
