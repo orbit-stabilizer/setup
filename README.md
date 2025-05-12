@@ -2,11 +2,6 @@
 
 1. Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. Install git: `brew install git`
-3. Clone repo
-4. Run `chmod +x bootstrap.sh`
-4. Run `chmod +x ./packages/*.sh`
-5. Run `sh bootstrap.sh`
+3. Install babaskha: `brew install borkdude/brew/babashka`
+4. Clone repo
 5. Run `bb install-packages.clj`
-6. Install supernotes :)
-7. Import Raycast config in `./backups`
-8. Profit

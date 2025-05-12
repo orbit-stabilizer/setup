@@ -1,25 +1,28 @@
-{:blog ["zola"]
- :browser ["brave"]
- :messaging ["discord" "signal"]
- :password-manager ["keepassxc"]
- :package-manager [#_"homebrew"] 
- :programming {:clojure [#_"clojure"
-                         #_"babaskha"] 
-               :development ["fzf"
-                             #_"git"
-                             "git-credential-manager"
-                             "neovim"
-                             "nushell"
-                             "ripgrep"
-                             "starship"
-                             "wezterm"
-                             "zoxide"]
-               :python ["uv"]
-               :rust ["rustup"]}
- :utilities ["raycast"
-             "stow"
-             "syncthing"]
- :window-management [#_"skhd"
-                     #_"yabai"]}
-           
- 
+{:application-launcher {"raycast" :brew/cask}
+ :browser {"qutebrowser" :brew/cask}
+ :development {:editor {"neovim" :brew}
+               :languages {:clojure {"clojure" :brew
+                                     "babaskha" :pre-installed} 
+                            :python {"uv" :brew}
+                            :rust {"rustup" :brew}}
+               :shell {"nushell" :brew
+                       :utilities {"fzf" :brew
+                                   "ripgrep" :brew
+                                   "starship" :brew
+                                   "zoxide" :brew}}
+               :terminal {"wezterm" :brew/cask}
+               :vcs {"git" :manual
+                     "git-credential-manager" :brew/cask}}
+ :dotfiles-manager {"stow" :brew}
+ :file-explorer {"yazi" :brew}
+ :keymap-manager {"karabiner-elements" :brew/cask}
+ :life-manager {"lunatask" :manual
+                "supernotes" :manual}
+ :messaging {"discord" :brew/cask
+             "signal" :brew/cask}
+ :mouse-manager {"KensingtonWorks" :manual}
+ :music {"tidal" :brew/cask}
+ :password-manager {"keepassxc" :brew/cask}
+ :package-manager {"homebrew" :pre-installed} 
+ :utilities {"syncthing" :brew}
+ :window-manager {"rectangle" :brew/cask}}
