@@ -3,6 +3,7 @@
 (require '[clojure.edn]
          '[clojure.java.shell :refer [sh]])
 
+; TODO: Needs to be updated
 ; type MasterPackages = Map<Keyword, Vector<String> | MasterPackages>
 ; TODO: First uninstall all brew packages and then install the ones in packages.edn
 (defn installation
