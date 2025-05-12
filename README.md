@@ -1,4 +1,4 @@
-# Steps to setup new machine
+# Steps to set up new machine
 
 1. Install homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
 2. Install git: `brew install git`
