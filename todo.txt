@@ -1,0 +1,3 @@
+run the following to setup java after installing openjdk from homebrew:
+sudo ln -sfn /opt/homebrew/opt/openjdk/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+

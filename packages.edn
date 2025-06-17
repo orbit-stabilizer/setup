@@ -1,16 +1,19 @@
 {:application-launcher {"raycast" :brew/cask}
- :browser {"qutebrowser" :brew/cask}
+ :browser {"brave-browser" :brew/cask
+           "qutebrowser" :brew/cask}
  :development {:editor {"neovim" :brew}
                :languages {:clojure {"clojure" :brew
-                                     "babaskha" :pre-installed} 
-                            :python {"uv" :brew}
-                            :rust {"rustup" :brew}}
+                                     "babaskha" :pre-installed}
+                           :java {"openjdk" :brew}
+                           :python {"uv" :brew}
+                           :rust {"rustup" :brew}}
                :shell {"nushell" :brew
                        :utilities {"fzf" :brew
                                    "ripgrep" :brew
                                    "starship" :brew
                                    "zoxide" :brew}}
-               :terminal {"wezterm" :brew/cask}
+               :terminal {"alacritty" :brew/cask
+                          "wezterm" :brew/cask}
                :vcs {"git" :manual
                      "git-credential-manager" :brew/cask}}
  :dotfiles-manager {"stow" :brew}
@@ -21,8 +24,8 @@
  :messaging {"discord" :brew/cask
              "signal" :brew/cask}
  :mouse-manager {"KensingtonWorks" :manual}
- :music {"tidal" :brew/cask}
+ :music {"spotify" :brew/cask}
  :password-manager {"keepassxc" :brew/cask}
- :package-manager {"homebrew" :pre-installed} 
+ :package-manager {"homebrew" :pre-installed}
  :utilities {"syncthing" :brew}
  :window-manager {"rectangle" :brew/cask}}
