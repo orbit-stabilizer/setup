@@ -1,7 +1,8 @@
 {:application-launcher {"raycast" :brew/cask}
  :browser {"brave-browser" :brew/cask
-           "qutebrowser" :brew/cask}
+           "mullvad-browser" :brew/cask}
  :development {:editor {"neovim" :brew}
+               :documentation {"dash" :brew/cask}
                :languages {:clojure {"clojure" :brew
                                      "babaskha" :pre-installed}
                            :java {"openjdk" :brew}
@@ -11,21 +12,28 @@
                        :utilities {"fzf" :brew
                                    "ripgrep" :brew
                                    "starship" :brew
-                                   "zoxide" :brew}}
-               :terminal {"alacritty" :brew/cask
-                          "wezterm" :brew/cask}
+                                   "zoxide" :brew}
+                       :terminal {"wezterm" :brew/cask}}
                :vcs {"git" :manual
                      "git-credential-manager" :brew/cask}}
  :dotfiles-manager {"stow" :brew}
+ :email {"proton-mail" :manual}
+ :encryption {"cryptomator" :brew/cask}
+ :drive {"proton-drive" :manual}
  :file-explorer {"yazi" :brew}
- :keymap-manager {"karabiner-elements" :brew/cask}
+ ;:keymap-manager {"karabiner-elements" :brew/cask}
  :life-manager {"lunatask" :manual
+                "supernote-partner" :manual
                 "supernotes" :manual}
- :messaging {"discord" :brew/cask
-             "signal" :brew/cask}
- :mouse-manager {"KensingtonWorks" :manual}
- :music {"spotify" :brew/cask}
- :password-manager {"keepassxc" :brew/cask}
+ ;:messaging {"signal" :brew/cask}
+ ;:mouse-manager {"KensingtonWorks" :manual}
+ :password-manager {"keepassxc" :brew/cask
+                    "proton-pass" :manual}
  :package-manager {"homebrew" :pre-installed}
- :utilities {"syncthing" :brew}
- :window-manager {"rectangle" :brew/cask}}
+ ;:twitch {"obs" :brew/cask}
+ :utilities {"appcleaner" :brew/cask
+             "openmtp" :brew/cask
+             "unnaturalscrollwheels" :brew/cask}
+ :webcam {"insta360-link-controller" :manual}}
+
+
